@@ -1,11 +1,16 @@
-# webpez
+# WebPez by Lynx Tech
 Minimalist webpage design template using simple and common html tags.
 
-## CSS and JS
-Use this to in your code to add webpez to your webpage.
+## How to use
+Add this to your code to add webpez template to your html/php webpage:
 
 ### CSS
 >
 
 ### JS
 >
+
+### Structure
+**...**
+### Functions
+**...**
