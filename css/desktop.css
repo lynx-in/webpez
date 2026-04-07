@@ -1,0 +1,58 @@
+@media screen and (min-width: 1080px) {
+    .linkbar{
+        width: 60px;
+        bottom:0px;
+        right:0px;
+    }
+    .linkbar>a{
+        display: block;
+    }
+    header>.container>ul{
+        margin: 0px;
+        z-index: 210;
+        display: inline-block;
+        padding: 0px;
+        overflow: hidden;
+        font-size: 14px;
+        background-color: none;  
+    }
+    header>.container>ul>li{
+        display: inline-block;
+        list-style: none;
+        line-height: 50px;
+        padding: 15px 20px;
+        margin:0px 10px;
+    }
+
+    header>.container>ul>li.close-button{
+        display: none;
+    }
+    header>.container>ul>li>ul{
+        column-fill:balance;
+        column-count: 3;
+        direction: ltr;
+    }
+    header>.container>ul.right-menu>li>ul{
+        column-fill:balance;
+        direction: rtl;
+    }
+      header>.container>ul>li>ul>li{
+   
+    break-inside: avoid-column;
+      }
+
+      .close-button{
+        float:right;
+    padding:0px 20px;
+    max-width:180px;
+    text-align: center !important;
+    }
+
+ .right-menu .close-button{
+
+        float:left;
+}
+    .hidden-large{
+        display: none !important;
+    }
+    }
